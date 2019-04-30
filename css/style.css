@@ -1,0 +1,197 @@
+/* 
+* @Author: 83509
+* @Date:   2019-04-28 11:27:10
+* @Last Modified by:   83509
+* @Last Modified time: 2019-04-29 16:01:54
+*/
+.head{
+	width: 16rem;
+    height: 5.2rem;
+    background-color: #38474F;
+}
+.head_top{
+	height: 0.9rem;
+	background: red;
+}
+.head_btm{
+	height: 2.35rem;
+	font-size: 0.35rem;
+	margin-top:0.75rem;
+}
+.head_btm h3{
+	margin-left:1.85rem;
+}
+.head_btm_list li {
+	float: left;
+}
+.icon-gouwuche1{
+	position: relative;
+}
+.head_biao{
+	width: 0.7rem;
+ height: 0.45rem;
+ line-height: 0.45rem;
+ text-align: center;
+ border-radius: 0.225rem;
+ background-color: #FFF;
+ position: absolute;
+ right:0.2rem;
+ top: 1.5rem;
+}
+.box li{
+	float: left;
+}
+.box li{
+	width: 7.175rem;
+ height: 1.575rem;
+ line-height: 1.575rem;
+ text-align: center;
+ background-color: #2D3A40;
+ color: #FFF;
+ margin-top: 0.95rem;
+}
+.box .active{
+	background-color: #F6846A;
+}
+.content_big{
+	width: 14.8rem;
+ height: 14.8rem;
+ border: 1px solid #D2D2D2;
+ margin-top: 0.625rem;
+ margin-bottom: 0.75rem;
+}
+.content_big img{
+	height:11.825rem;
+	width:14.8rem; 
+}
+.content_big strong{
+	font-size: 0.5rem;
+	float: left;
+	margin-top: 1.15rem;
+	margin-left: 1rem;
+}
+.content_big em{
+	font-size: 0.5rem;
+	float: right;
+	margin-top: 0.8rem;
+	margin-right: 0.65rem;
+	padding: 0.35rem 0.75rem 0.35rem 0.82rem;
+	border-radius: 2px;
+	background-color: #BFBFC4;
+	color: #fff;
+}
+.content_small{
+	width: 14.75rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border: 1px solid #B9B9B9;
+}
+.content_small span{
+	float: left;
+	margin-left: 1rem;
+}
+.content_small p{
+	margin-left: 1.75rem;
+	float: left;
+	font-size:0.45rem;
+}
+.footer_top{
+	width: 14.8rem;
+ height: 12.75rem;
+ border: 1px solid #E4E4E4;
+	border-radius: 2px;
+	box-shadow: 2px 2px #D2D2D2;
+	margin-top: 0.87rem;
+	position: relative;
+}
+.footer_top_head h3{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer_top_head{
+	position: absolute;
+	left:50%;top:0;
+	margin-left:-50px ;
+}
+.footer_top_a{
+	text-align: center;
+	margin-top: 2rem;
+	font-size: 14px;
+}
+.footer_list li{
+   float: left;
+   width: 1.77rem;
+   height: 1.77rem;
+   line-height: 1.77px;
+   text-align: center;
+   background-color: red;
+   margin-right: 0.625rem;
+   position: relative;
+   
+}
+.icon-duigou{
+	position: absolute;
+	left: 50%;top: 50%;
+	margin-top: 0px;
+	margin-left: -5px;
+}
+.footer_list {
+	margin-left: 4rem;
+	margin-top: 0.9rem;
+}
+.xian{
+	height: 0.05rem;
+    width: 11.35rem;
+	background-color: #DCDCDC;
+	margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer_btm_head_a{
+	text-align: center;
+	margin-top: 1rem;
+}
+.footer_btm_head_a span{
+	padding-left: 1rem;
+}
+.footer_btm_head_c{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 0.75rem;
+
+}
+.footer_btm_list{
+	margin-left:1.14rem;
+	margin-top: 0.9rem;
+}
+.footer_btm_list li{
+	width: 1.775rem;
+    height: 1.775rem;
+    line-height: 1.775rem;
+    text-align: center;
+    float: left;
+    margin-left: 0.625rem;
+	background-color:#DADADE;
+	font-size: 18px;
+
+}
+.footer_btm_list .active_2{
+	background-color: #67B0D6;
+	color: #fff;
+}
+input{
+	
+}
+.box_a{
+	margin-top: 1.5rem;
+	text-align: center;
+	
+}
+.box_a p{
+	text-align: center;
+	padding: 0.5rem 2rem;
+	background-color: #3A4144;
+	display: inline-block;
+	color: #fff;
+}

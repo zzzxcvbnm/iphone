@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="iconfont.css">
+	<script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+             var obox = document.getElementById('box');
+             var oli = obox.getElementsByTagName('li')
+             for(var i=0;i<oli.length;i++){
+             	oli[i].onclick = function(){
+             	 for(var j=0;j<oli.length;j++){
+             		oli[j].className="";
+             	}
+             	this.className ="active";
+             }
+           }
+            var ofooter = document.getElementById('foot');
+            var uli = ofooter.getElementsByTagName('li');
+              for(var z=0;z<uli.length;z++){
+              	uli[z].onclick = function(){
+              		for(var x=0;x<uli.length;x++){
+              			uli[x].className = "";
+              		}
+              		this.className ="active_2";
+              	}
+              }
+        } 	
+    </script>
+
+   
+</head>
+<body>
+  <div class="head">
+  	 <div class="head_top"></div>
+  	 <div class="head_btm gWidth">
+  	 <ul class="head_btm_list clearfix">
+  	 	<li><span class="iconfont icon-back gWidth"></span></li>
+  	 	<li><h3>Asdfghasdsad</h3></li>
+  	 	<li style=float:right;><span class="iconfont icon-gouwuche1 gWidth"></span></li>
+  	 </ul>
+  	 <div class="head_biao">3</div>
+  	 <ul class="box" id="box">
+  	 	<li class="active">ADD &nbsp;TO&nbsp;WISHLIST</li>
+  	 	<li class="" style="margin-left: 0.35rem;">ADD &nbsp;TO&nbsp;WISHLIST</li>
+  	 </ul>  	 	
+  	 </div>
+  </div>
+  <div class="content gWidth">
+    <div class="content_big">
+    	<img src="./images/big.jpg"alt="">
+    	<p><strong>EEEEEEEEEEEEEEEEEEE</strong></p>
+    	<p><em>$555555</em></p>
+    </div>
+    <div class="content_small clearfix">
+    <span class="iconfont icon-tianjia"></span><p>DDDDDDDDDDS</p>	
+    </div>    
+  </div>
+  <div class="footer_top gWidth">
+  	<div class="footer_top_head">
+  	<span class="iconfont icon-shuidi"></span>
+  	<h3>Colour:</h3>
+  	</div>
+  	<p class="footer_top_a">CCCCCCCCCCCCCS</p>
+  	<ul class="footer_list clearfix">
+  		<li><span class="iconfont icon-duigou"></span></li>
+  		<li><span></span></li>
+  		<li style="margin-right:0px;"><span></span></li>
+  	</ul>
+  	<div class="xian"></div>
+  	<div class="footer_btm_head">
+  	<p class="iconfont icon-yijia footer_btm_head_a"><span>Size</span></p>
+  	<p class="footer_btm_head_c">sadsadsdsadsad</p>
+  	</div>
+  	<ul class="footer_btm_list clearfix" id="foot">
+  		<li>8</li>
+  		<li class="active_2">8</li>
+  		<li>8</li>
+  		<li>8</li>
+  		<li>8</li>
+  	</ul>
+  </div>
+  <div class="box_a"><p>sadsadasd</p></div>
+</body>
+</html>
